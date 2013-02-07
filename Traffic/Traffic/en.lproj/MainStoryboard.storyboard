@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="12">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menu View Controller-->
+        <scene sceneID="8">
+            <objects>
+                <viewController storyboardIdentifier="MainMenuViewController" id="5" customClass="MainMenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="MainMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="nFq-Sg-H9N"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9n-31-fw2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="u3N-YK-Fev"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="New Game" image="NewGame.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ssd-SZ-wYr" kind="modal" id="yFd-O0-geV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnX-4n-Cte">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="Vot-Kd-3eE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Stats" image="Stats.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gri-VA-Cbp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="gQN-n4-ofd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Settings" image="Settings.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="h9n-31-fw2" firstAttribute="top" secondItem="6" secondAttribute="top" constant="142" id="6yS-cD-BYb"/>
+                            <constraint firstItem="nFq-Sg-H9N" firstAttribute="bottom" secondItem="6" secondAttribute="bottom" type="default" id="9np-TH-BMC"/>
+                            <constraint firstItem="nFq-Sg-H9N" firstAttribute="top" secondItem="6" secondAttribute="top" type="default" id="Fpv-rP-nMV"/>
+                            <constraint firstItem="h9n-31-fw2" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="HsL-S7-jHc"/>
+                            <constraint firstAttribute="trailing" secondItem="FnX-4n-Cte" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Kwe-i0-kwt"/>
+                            <constraint firstAttribute="trailing" secondItem="Gri-VA-Cbp" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="OYX-8X-x9V"/>
+                            <constraint firstAttribute="trailing" secondItem="h9n-31-fw2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Xlb-Xp-gs7"/>
+                            <constraint firstAttribute="bottom" secondItem="Gri-VA-Cbp" secondAttribute="bottom" constant="103" id="alt-Ib-KeR"/>
+                            <constraint firstItem="nFq-Sg-H9N" firstAttribute="leading" secondItem="6" secondAttribute="leading" type="default" id="qR2-Fz-wmo"/>
+                            <constraint firstItem="FnX-4n-Cte" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="tUM-iG-aXK"/>
+                            <constraint firstItem="Gri-VA-Cbp" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="vVt-a7-MTp"/>
+                            <constraint firstItem="FnX-4n-Cte" firstAttribute="top" secondItem="6" secondAttribute="top" constant="225" id="vf9-sZ-ONe"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="gameButton" destination="h9n-31-fw2" id="110-qC-yEz"/>
+                        <outlet property="gameSettingsButton" destination="Gri-VA-Cbp" id="8WE-qP-ema"/>
+                        <outlet property="statButton" destination="FnX-4n-Cte" id="PVL-vc-iiV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="476"/>
+        </scene>
+        <!--Traffic View Controller-->
+        <scene sceneID="MlH-OM-beg">
+            <objects>
+                <viewController storyboardIdentifier="TrafficViewController" id="ssd-SZ-wYr" customClass="TrafficViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eri-du-C1L">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Road.png" translatesAutoresizingMaskIntoConstraints="NO" id="rb8-Dd-VX9"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PJ-1p-kle">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="5zk-zC-DAy"/>
+                                    <constraint firstAttribute="height" constant="21" id="EyJ-zO-IE8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="left" image="Time.png" translatesAutoresizingMaskIntoConstraints="NO" id="sY5-cN-MoY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="djH-Lw-RK7"/>
+                                    <constraint firstAttribute="height" constant="31" id="wyQ-xV-amP"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNS-k6-Qd5" customClass="Lane">
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="0.22" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="controller" destination="LTo-ky-PvO" id="p5k-Me-iN8"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xd5-Bl-0wT" customClass="Lane">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="controller" destination="LTo-ky-PvO" id="zSl-nj-2Or"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gva-We-TCy" customClass="Lane">
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="controller" destination="LTo-ky-PvO" id="iMH-rz-fiE"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpo-zU-U8s">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="4J6-hc-4zc"/>
+                                    <constraint firstAttribute="height" constant="44" id="bnf-qz-RCd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Pause-Button.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseGame:" destination="ssd-SZ-wYr" eventType="touchUpInside" id="uZM-8G-X0r"/>
+                                    <segue destination="drG-Y3-ReG" kind="modal" id="UBa-08-HVu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rb8-Dd-VX9" firstAttribute="leading" secondItem="eri-du-C1L" secondAttribute="leading" type="default" id="0mS-V1-Uhx"/>
+                            <constraint firstItem="gva-We-TCy" firstAttribute="bottom" secondItem="Xd5-Bl-0wT" secondAttribute="bottom" type="default" id="9Xb-tK-c29"/>
+                            <constraint firstItem="rb8-Dd-VX9" firstAttribute="bottom" secondItem="eri-du-C1L" secondAttribute="bottom" type="default" id="GZZ-ks-pmt"/>
+                            <constraint firstItem="rb8-Dd-VX9" firstAttribute="top" secondItem="eri-du-C1L" secondAttribute="top" type="default" id="MNx-ag-KeG"/>
+                            <constraint firstItem="jpo-zU-U8s" firstAttribute="trailing" secondItem="eri-du-C1L" secondAttribute="trailing" type="default" id="Qya-V4-cqT"/>
+                            <constraint firstItem="sY5-cN-MoY" firstAttribute="centerY" secondItem="jpo-zU-U8s" secondAttribute="centerY" type="default" id="RdV-Jd-N1p"/>
+                            <constraint firstAttribute="trailing" secondItem="jNS-k6-Qd5" secondAttribute="trailing" constant="196" id="Tgh-YI-uXb"/>
+                            <constraint firstItem="jpo-zU-U8s" firstAttribute="baseline" secondItem="3PJ-1p-kle" secondAttribute="baseline" type="default" id="XfN-5z-QcW"/>
+                            <constraint firstItem="gva-We-TCy" firstAttribute="top" secondItem="eri-du-C1L" secondAttribute="top" constant="-3" id="bCC-q0-IRf"/>
+                            <constraint firstItem="sY5-cN-MoY" firstAttribute="leading" secondItem="eri-du-C1L" secondAttribute="leading" constant="5" id="bk3-Ar-DoV"/>
+                            <constraint firstItem="gva-We-TCy" firstAttribute="leading" secondItem="eri-du-C1L" secondAttribute="leading" constant="125" id="buF-k5-QwJ"/>
+                            <constraint firstItem="rb8-Dd-VX9" firstAttribute="centerX" secondItem="gva-We-TCy" secondAttribute="centerX" type="default" id="cBn-em-luv"/>
+                            <constraint firstItem="Xd5-Bl-0wT" firstAttribute="leading" secondItem="gva-We-TCy" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="cSU-Km-5l7"/>
+                            <constraint firstItem="sY5-cN-MoY" firstAttribute="bottom" secondItem="3PJ-1p-kle" secondAttribute="bottom" type="default" id="dkf-ju-Ida"/>
+                            <constraint firstItem="jNS-k6-Qd5" firstAttribute="top" secondItem="jpo-zU-U8s" secondAttribute="top" type="default" id="fLQ-aK-wvt"/>
+                            <constraint firstItem="jNS-k6-Qd5" firstAttribute="leading" secondItem="eri-du-C1L" secondAttribute="leading" constant="54" id="fQ6-l7-OD6"/>
+                            <constraint firstItem="sY5-cN-MoY" firstAttribute="top" secondItem="eri-du-C1L" secondAttribute="top" constant="1" id="oqL-Mn-Z11"/>
+                            <constraint firstItem="3PJ-1p-kle" firstAttribute="leading" secondItem="sY5-cN-MoY" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qed-ov-ufa"/>
+                            <constraint firstItem="jpo-zU-U8s" firstAttribute="leading" secondItem="Xd5-Bl-0wT" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="sYj-Em-vNL"/>
+                            <constraint firstItem="jNS-k6-Qd5" firstAttribute="bottom" secondItem="eri-du-C1L" secondAttribute="bottom" type="default" id="shI-Pp-eof"/>
+                            <constraint firstItem="gva-We-TCy" firstAttribute="top" secondItem="Xd5-Bl-0wT" secondAttribute="top" type="default" id="uVr-bl-GPX"/>
+                            <constraint firstItem="gva-We-TCy" firstAttribute="centerY" secondItem="rb8-Dd-VX9" secondAttribute="centerY" type="default" id="xqO-NG-nmc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Okf-J9-vzQ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="gameController" destination="LTo-ky-PvO" id="lpa-Rr-rZv"/>
+                        <outlet property="gameOverOverlay" destination="eri-du-C1L" id="YY3-hd-FX0"/>
+                        <outlet property="timeRemainingLabel" destination="3PJ-1p-kle" id="758-hv-3h9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BJS-N9-LAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="emr-O9-5WL" userLabel="Exit" sceneMemberID="exit"/>
+                <customObject id="LTo-ky-PvO" customClass="TrafficController">
+                    <connections>
+                        <outlet property="viewController" destination="ssd-SZ-wYr" id="yNe-c7-TMG"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1165" y="450"/>
+        </scene>
+        <!--Pause View Controller-->
+        <scene sceneID="J2s-Yi-jQc">
+            <objects>
+                <viewController id="drG-Y3-ReG" customClass="PauseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tUU-Ct-2gY">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfH-qD-a3N">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Paused.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="emr-O9-5WL" kind="unwind" unwindAction="returned:" id="9oK-50-OE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXr-nT-r3B">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="23I-gV-dNe"/>
+                                    <constraint firstAttribute="height" constant="43" id="The-AF-pn7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="End-Button.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="OXr-nT-r3B" secondAttribute="bottom" constant="72" id="HiQ-wf-wb3"/>
+                            <constraint firstItem="nfH-qD-a3N" firstAttribute="leading" secondItem="tUU-Ct-2gY" secondAttribute="leading" type="default" id="OX7-Sd-MeE"/>
+                            <constraint firstItem="nfH-qD-a3N" firstAttribute="top" secondItem="tUU-Ct-2gY" secondAttribute="top" type="default" id="aAk-YS-El6"/>
+                            <constraint firstItem="OXr-nT-r3B" firstAttribute="centerX" secondItem="nfH-qD-a3N" secondAttribute="centerX" type="default" id="rcY-Vn-bEe"/>
+                            <constraint firstItem="nfH-qD-a3N" firstAttribute="bottom" secondItem="tUU-Ct-2gY" secondAttribute="bottom" type="default" id="xQ4-iO-yYn"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gwp-Gj-0KL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1543" y="450"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="15">
+            <objects>
+                <viewController id="12" customClass="RootViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="13">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="476"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="End-Button.png" width="150" height="68"/>
+        <image name="MainMenu.png" width="320" height="480"/>
+        <image name="NewGame.png" width="284" height="80"/>
+        <image name="Pause-Button.png" width="32" height="32"/>
+        <image name="Paused.png" width="320" height="480"/>
+        <image name="Road.png" width="320" height="480"/>
+        <image name="Settings.png" width="284" height="80"/>
+        <image name="Stats.png" width="284" height="80"/>
+        <image name="Time.png" width="83" height="29"/>
+    </resources>
+    <classes>
+        <class className="Lane" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Lane.h"/>
+            <relationships>
+                <relationship kind="outlet" name="controller" candidateClass="TrafficController"/>
+            </relationships>
+        </class>
+        <class className="MainMenuViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainMenuViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="gameButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="gameSettingsButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="statButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PauseViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PauseViewController.h"/>
+        </class>
+        <class className="RootViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RootViewController.h"/>
+        </class>
+        <class className="TrafficController" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrafficController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="viewController" candidateClass="TrafficViewController"/>
+            </relationships>
+        </class>
+        <class className="TrafficViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrafficViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="endGame:"/>
+                <relationship kind="action" name="pauseGame:"/>
+                <relationship kind="action" name="returned:" candidateClass="UIStoryboardSegue"/>
+                <relationship kind="outlet" name="gameController" candidateClass="TrafficController"/>
+                <relationship kind="outlet" name="gameOverOverlay" candidateClass="UIView"/>
+                <relationship kind="outlet" name="pauseOverlay" candidateClass="UIView"/>
+                <relationship kind="outlet" name="timeRemainingLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="UIStoryboardSegue" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
