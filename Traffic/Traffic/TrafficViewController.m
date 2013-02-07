@@ -34,6 +34,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    NSLog(@"Testing git");
 }
 
 - (void)didReceiveMemoryWarning

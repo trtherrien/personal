@@ -266,52 +266,6 @@
         <image name="Stats.png" width="284" height="80"/>
         <image name="Time.png" width="83" height="29"/>
     </resources>
-    <classes>
-        <class className="Lane" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Lane.h"/>
-            <relationships>
-                <relationship kind="outlet" name="controller" candidateClass="TrafficController"/>
-            </relationships>
-        </class>
-        <class className="MainMenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainMenuViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="gameButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="gameSettingsButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="statButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PauseViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PauseViewController.h"/>
-        </class>
-        <class className="RootViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RootViewController.h"/>
-        </class>
-        <class className="TrafficController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrafficController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="viewController" candidateClass="TrafficViewController"/>
-            </relationships>
-        </class>
-        <class className="TrafficViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrafficViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="endGame:"/>
-                <relationship kind="action" name="pauseGame:"/>
-                <relationship kind="action" name="returned:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="outlet" name="gameController" candidateClass="TrafficController"/>
-                <relationship kind="outlet" name="gameOverOverlay" candidateClass="UIView"/>
-                <relationship kind="outlet" name="pauseOverlay" candidateClass="UIView"/>
-                <relationship kind="outlet" name="timeRemainingLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="UIStoryboardSegue" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
