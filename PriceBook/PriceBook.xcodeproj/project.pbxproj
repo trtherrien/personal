@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCD1D7516C838BA0000809E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1D7416C838BA0000809E /* UIKit.framework */; };
+		3DCD1D7716C838BA0000809E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1D7616C838BA0000809E /* Foundation.framework */; };
+		3DCD1D7916C838BA0000809E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1D7816C838BA0000809E /* CoreGraphics.framework */; };
+		3DCD1D7F16C838BA0000809E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1D7D16C838BA0000809E /* InfoPlist.strings */; };
+		3DCD1D8116C838BA0000809E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8016C838BA0000809E /* main.m */; };
+		3DCD1D8516C838BA0000809E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8416C838BA0000809E /* AppDelegate.m */; };
+		3DCD1D8716C838BA0000809E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8616C838BA0000809E /* Default.png */; };
+		3DCD1D8916C838BA0000809E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8816C838BA0000809E /* Default@2x.png */; };
+		3DCD1D8B16C838BA0000809E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8A16C838BA0000809E /* Default-568h@2x.png */; };
+		3DCD1D8E16C838BA0000809E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8D16C838BA0000809E /* ViewController.m */; };
+		3DCD1D9116C838BA0000809E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1D8F16C838BA0000809E /* ViewController.xib */; };
+		3DCD1DB516C838D90000809E /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DAF16C838D90000809E /* libzbar.a */; };
+		3DCD1DB616C838DA0000809E /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1DB116C838D90000809E /* zbar-back.png */; };
+		3DCD1DB716C838DA0000809E /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1DB216C838D90000809E /* zbar-help.html */; };
+		3DCD1DB816C838DA0000809E /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1DB316C838D90000809E /* zbar-helpicons.png */; };
+		3DCD1DB916C838DA0000809E /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD1DB416C838D90000809E /* zbar-samples.png */; };
+		3DCD1DBB16C838EE0000809E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DBA16C838EE0000809E /* CoreImage.framework */; };
+		3DCD1DBD16C838F40000809E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DBC16C838F40000809E /* CoreVideo.framework */; };
+		3DCD1DBF16C839110000809E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DBE16C839110000809E /* AVFoundation.framework */; };
+		3DCD1DC116C8391D0000809E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DC016C8391D0000809E /* QuartzCore.framework */; };
+		3DCD1DC316C839310000809E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DC216C839310000809E /* libiconv.dylib */; };
+		3DCD1DC516C83D6B0000809E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DC416C83D6B0000809E /* ImageIO.framework */; };
+		3DCD1DC716C83DE70000809E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD1DC616C83DE70000809E /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DCD1D7116C838BA0000809E /* PriceBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD1D7416C838BA0000809E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DCD1D7616C838BA0000809E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DCD1D7816C838BA0000809E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DCD1D7C16C838BA0000809E /* PriceBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriceBook-Info.plist"; sourceTree = "<group>"; };
+		3DCD1D7E16C838BA0000809E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DCD1D8016C838BA0000809E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DCD1D8216C838BA0000809E /* PriceBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PriceBook-Prefix.pch"; sourceTree = "<group>"; };
+		3DCD1D8316C838BA0000809E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DCD1D8416C838BA0000809E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DCD1D8616C838BA0000809E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3DCD1D8816C838BA0000809E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3DCD1D8A16C838BA0000809E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3DCD1D8C16C838BA0000809E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DCD1D8D16C838BA0000809E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DCD1D9016C838BA0000809E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3DCD1D9B16C838D90000809E /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		3DCD1D9C16C838D90000809E /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		3DCD1D9D16C838D90000809E /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		3DCD1D9E16C838D90000809E /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		3DCD1D9F16C838D90000809E /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		3DCD1DA016C838D90000809E /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		3DCD1DA116C838D90000809E /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		3DCD1DA216C838D90000809E /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		3DCD1DA316C838D90000809E /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		3DCD1DA416C838D90000809E /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		3DCD1DA516C838D90000809E /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		3DCD1DA616C838D90000809E /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		3DCD1DA716C838D90000809E /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		3DCD1DA816C838D90000809E /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		3DCD1DA916C838D90000809E /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		3DCD1DAA16C838D90000809E /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		3DCD1DAB16C838D90000809E /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		3DCD1DAC16C838D90000809E /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		3DCD1DAD16C838D90000809E /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		3DCD1DAE16C838D90000809E /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		3DCD1DAF16C838D90000809E /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		3DCD1DB116C838D90000809E /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		3DCD1DB216C838D90000809E /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		3DCD1DB316C838D90000809E /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		3DCD1DB416C838D90000809E /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		3DCD1DBA16C838EE0000809E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3DCD1DBC16C838F40000809E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3DCD1DBE16C839110000809E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3DCD1DC016C8391D0000809E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3DCD1DC216C839310000809E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		3DCD1DC416C83D6B0000809E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3DCD1DC616C83DE70000809E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCD1D6E16C838BA0000809E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD1D7716C838BA0000809E /* Foundation.framework in Frameworks */,
+				3DCD1D7916C838BA0000809E /* CoreGraphics.framework in Frameworks */,
+				3DCD1D7516C838BA0000809E /* UIKit.framework in Frameworks */,
+				3DCD1DBF16C839110000809E /* AVFoundation.framework in Frameworks */,
+				3DCD1DC716C83DE70000809E /* CoreMedia.framework in Frameworks */,
+				3DCD1DBD16C838F40000809E /* CoreVideo.framework in Frameworks */,
+				3DCD1DC116C8391D0000809E /* QuartzCore.framework in Frameworks */,
+				3DCD1DC316C839310000809E /* libiconv.dylib in Frameworks */,
+				3DCD1DB516C838D90000809E /* libzbar.a in Frameworks */,
+				3DCD1DC516C83D6B0000809E /* ImageIO.framework in Frameworks */,
+				3DCD1DBB16C838EE0000809E /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCD1D6816C838BA0000809E = {
+			isa = PBXGroup;
+			children = (
+				3DCD1DC616C83DE70000809E /* CoreMedia.framework */,
+				3DCD1DC416C83D6B0000809E /* ImageIO.framework */,
+				3DCD1DC216C839310000809E /* libiconv.dylib */,
+				3DCD1DC016C8391D0000809E /* QuartzCore.framework */,
+				3DCD1DBE16C839110000809E /* AVFoundation.framework */,
+				3DCD1DBC16C838F40000809E /* CoreVideo.framework */,
+				3DCD1DBA16C838EE0000809E /* CoreImage.framework */,
+				3DCD1D9716C838D90000809E /* ZBarSDK */,
+				3DCD1D7A16C838BA0000809E /* PriceBook */,
+				3DCD1D7316C838BA0000809E /* Frameworks */,
+				3DCD1D7216C838BA0000809E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCD1D7216C838BA0000809E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D7116C838BA0000809E /* PriceBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCD1D7316C838BA0000809E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D7416C838BA0000809E /* UIKit.framework */,
+				3DCD1D7616C838BA0000809E /* Foundation.framework */,
+				3DCD1D7816C838BA0000809E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCD1D7A16C838BA0000809E /* PriceBook */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D8316C838BA0000809E /* AppDelegate.h */,
+				3DCD1D8416C838BA0000809E /* AppDelegate.m */,
+				3DCD1D8C16C838BA0000809E /* ViewController.h */,
+				3DCD1D8D16C838BA0000809E /* ViewController.m */,
+				3DCD1D8F16C838BA0000809E /* ViewController.xib */,
+				3DCD1D7B16C838BA0000809E /* Supporting Files */,
+			);
+			path = PriceBook;
+			sourceTree = "<group>";
+		};
+		3DCD1D7B16C838BA0000809E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D7C16C838BA0000809E /* PriceBook-Info.plist */,
+				3DCD1D7D16C838BA0000809E /* InfoPlist.strings */,
+				3DCD1D8016C838BA0000809E /* main.m */,
+				3DCD1D8216C838BA0000809E /* PriceBook-Prefix.pch */,
+				3DCD1D8616C838BA0000809E /* Default.png */,
+				3DCD1D8816C838BA0000809E /* Default@2x.png */,
+				3DCD1D8A16C838BA0000809E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DCD1D9716C838D90000809E /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D9816C838D90000809E /* Headers */,
+				3DCD1DAF16C838D90000809E /* libzbar.a */,
+				3DCD1DB016C838D90000809E /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		3DCD1D9816C838D90000809E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D9916C838D90000809E /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3DCD1D9916C838D90000809E /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D9A16C838D90000809E /* zbar */,
+				3DCD1DA416C838D90000809E /* zbar.h */,
+				3DCD1DA516C838D90000809E /* ZBarCameraSimulator.h */,
+				3DCD1DA616C838D90000809E /* ZBarCaptureReader.h */,
+				3DCD1DA716C838D90000809E /* ZBarHelpController.h */,
+				3DCD1DA816C838D90000809E /* ZBarImage.h */,
+				3DCD1DA916C838D90000809E /* ZBarImageScanner.h */,
+				3DCD1DAA16C838D90000809E /* ZBarReaderController.h */,
+				3DCD1DAB16C838D90000809E /* ZBarReaderView.h */,
+				3DCD1DAC16C838D90000809E /* ZBarReaderViewController.h */,
+				3DCD1DAD16C838D90000809E /* ZBarSDK.h */,
+				3DCD1DAE16C838D90000809E /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		3DCD1D9A16C838D90000809E /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1D9B16C838D90000809E /* Decoder.h */,
+				3DCD1D9C16C838D90000809E /* Exception.h */,
+				3DCD1D9D16C838D90000809E /* Image.h */,
+				3DCD1D9E16C838D90000809E /* ImageScanner.h */,
+				3DCD1D9F16C838D90000809E /* Processor.h */,
+				3DCD1DA016C838D90000809E /* Scanner.h */,
+				3DCD1DA116C838D90000809E /* Symbol.h */,
+				3DCD1DA216C838D90000809E /* Video.h */,
+				3DCD1DA316C838D90000809E /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		3DCD1DB016C838D90000809E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD1DB116C838D90000809E /* zbar-back.png */,
+				3DCD1DB216C838D90000809E /* zbar-help.html */,
+				3DCD1DB316C838D90000809E /* zbar-helpicons.png */,
+				3DCD1DB416C838D90000809E /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCD1D7016C838BA0000809E /* PriceBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD1D9416C838BA0000809E /* Build configuration list for PBXNativeTarget "PriceBook" */;
+			buildPhases = (
+				3DCD1D6D16C838BA0000809E /* Sources */,
+				3DCD1D6E16C838BA0000809E /* Frameworks */,
+				3DCD1D6F16C838BA0000809E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceBook;
+			productName = PriceBook;
+			productReference = 3DCD1D7116C838BA0000809E /* PriceBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCD1D6916C838BA0000809E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thomas Therrien";
+			};
+			buildConfigurationList = 3DCD1D6C16C838BA0000809E /* Build configuration list for PBXProject "PriceBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DCD1D6816C838BA0000809E;
+			productRefGroup = 3DCD1D7216C838BA0000809E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCD1D7016C838BA0000809E /* PriceBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCD1D6F16C838BA0000809E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD1D7F16C838BA0000809E /* InfoPlist.strings in Resources */,
+				3DCD1D8716C838BA0000809E /* Default.png in Resources */,
+				3DCD1D8916C838BA0000809E /* Default@2x.png in Resources */,
+				3DCD1D8B16C838BA0000809E /* Default-568h@2x.png in Resources */,
+				3DCD1D9116C838BA0000809E /* ViewController.xib in Resources */,
+				3DCD1DB616C838DA0000809E /* zbar-back.png in Resources */,
+				3DCD1DB716C838DA0000809E /* zbar-help.html in Resources */,
+				3DCD1DB816C838DA0000809E /* zbar-helpicons.png in Resources */,
+				3DCD1DB916C838DA0000809E /* zbar-samples.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCD1D6D16C838BA0000809E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD1D8116C838BA0000809E /* main.m in Sources */,
+				3DCD1D8516C838BA0000809E /* AppDelegate.m in Sources */,
+				3DCD1D8E16C838BA0000809E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DCD1D7D16C838BA0000809E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCD1D7E16C838BA0000809E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DCD1D8F16C838BA0000809E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCD1D9016C838BA0000809E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCD1D9216C838BA0000809E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DCD1D9316C838BA0000809E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCD1D9516C838BA0000809E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PriceBook/PriceBook-Prefix.pch";
+				INFOPLIST_FILE = "PriceBook/PriceBook-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DCD1D9616C838BA0000809E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PriceBook/PriceBook-Prefix.pch";
+				INFOPLIST_FILE = "PriceBook/PriceBook-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCD1D6C16C838BA0000809E /* Build configuration list for PBXProject "PriceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD1D9216C838BA0000809E /* Debug */,
+				3DCD1D9316C838BA0000809E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD1D9416C838BA0000809E /* Build configuration list for PBXNativeTarget "PriceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD1D9516C838BA0000809E /* Debug */,
+				3DCD1D9616C838BA0000809E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCD1D6916C838BA0000809E /* Project object */;
+}
