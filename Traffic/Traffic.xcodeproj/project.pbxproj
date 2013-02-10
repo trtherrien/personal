@@ -23,6 +23,7 @@
 		3D1DF01016BCA0EF009036E7 /* Stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DF00C16BCA0EF009036E7 /* Stats.png */; };
 		3D1DF01216BCA3B7009036E7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DF01116BCA3B7009036E7 /* Icon.png */; };
 		3D1DF01416BCA4F0009036E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DF01316BCA4F0009036E7 /* Default@2x.png */; };
+		3D259FC816C723220047D1A1 /* EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D259FC716C723220047D1A1 /* EndViewController.m */; };
 		3D3A933116BDE678002DBA8E /* TrafficController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A933016BDE678002DBA8E /* TrafficController.m */; };
 		3D56FDAC16C09A13009EE729 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D56FDAB16C09A13009EE729 /* Time.png */; };
 		3D56FDB116C09FBD009EE729 /* End-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D56FDAD16C09FBD009EE729 /* End-Button.png */; };
@@ -66,6 +67,8 @@
 		3D1DF00C16BCA0EF009036E7 /* Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stats.png; sourceTree = "<group>"; };
 		3D1DF01116BCA3B7009036E7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3D1DF01316BCA4F0009036E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		3D259FC616C723220047D1A1 /* EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndViewController.h; sourceTree = "<group>"; };
+		3D259FC716C723220047D1A1 /* EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndViewController.m; sourceTree = "<group>"; };
 		3D3A932F16BDE678002DBA8E /* TrafficController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficController.h; sourceTree = "<group>"; };
 		3D3A933016BDE678002DBA8E /* TrafficController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficController.m; sourceTree = "<group>"; };
 		3D56FDAB16C09A13009EE729 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Time.png; path = ../../../../Downloads/traffic_resources_15102010/Images/Time.png; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				3D1DEFFE16BC9CE6009036E7 /* ModelController.h */,
 				3D1DEFFF16BC9CE6009036E7 /* ModelController.m */,
 				3D1DF00116BC9CE6009036E7 /* MainStoryboard.storyboard */,
+				3D259FC616C723220047D1A1 /* EndViewController.h */,
+				3D259FC716C723220047D1A1 /* EndViewController.m */,
 				3DD2E37916BEE5710068078D /* Lane.h */,
 				3DD2E37A16BEE5720068078D /* Lane.m */,
 				3D7D905A16BCAF36007B3E2B /* Vehicle.h */,
@@ -278,6 +283,7 @@
 				3D3A933116BDE678002DBA8E /* TrafficController.m in Sources */,
 				3DD2E37B16BEE5720068078D /* Lane.m in Sources */,
 				3DED374A16C1F36E005A06B5 /* PauseViewController.m in Sources */,
+				3D259FC816C723220047D1A1 /* EndViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

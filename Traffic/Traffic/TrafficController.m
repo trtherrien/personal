@@ -23,6 +23,10 @@
 -(void) registerLane:(Lane*)lane {
     [lanes addObject:lane];
 }
+-(void) stopGame {
+    NSLog(@"Stopping Game");
+    [self.viewController displayGameOver];
+}
 -(void) startGame {
     displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(update:)];
     [displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
@@ -126,7 +130,7 @@
 -(void) vehicle:(Vehicle*) aVehicle collidedWithVehicle:(Vehicle*) otherVehicle{
     if (!displayLink.paused) {
         [self togglePause];
-        [self.viewController displayGameOver];
+        [self stopGame];
     }
 }
 

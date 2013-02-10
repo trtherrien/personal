@@ -21,7 +21,7 @@
     double timeRemaining;
     double lasTTimeStamp;
 }
-@property (nonatomic, retain) IBOutlet TrafficViewController* viewController;
+@property (strong, nonatomic) IBOutlet TrafficViewController* viewController;
 @property (assign) BOOL paused;
 -(void) startGame;
 -(void) stopGame;

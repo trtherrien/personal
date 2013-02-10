@@ -1,18 +1,18 @@
 //
-//  PauseViewController.m
+//  EndViewController.m
 //  Traffic
 //
-//  Created by Thomas Therrien on 2/5/13.
+//  Created by Thomas Therrien on 2/9/13.
 //  Copyright (c) 2013 Thomas Therrien. All rights reserved.
 //
 
-#import "PauseViewController.h"
+#import "EndViewController.h"
 
-@interface PauseViewController ()
+@interface EndViewController ()
 
 @end
 
-@implementation PauseViewController
+@implementation EndViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,7 +27,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"Pause");
+    NSLog(@"End Seque loaded");
+    [self performSelector:@selector(endGame:) withObject:nil afterDelay:1.5];
+}
+
+-(IBAction)endGame:(id)sender {
+    //[self dismissViewControllerAnimated:NO completion:nil];
+    //NSLog(@"Ending...");
+    [self performSegueWithIdentifier:@"GOS" sender:self];
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,7 +9,7 @@
 #import "TrafficViewController.h"
 #import "Vehicle.h"
 #import "TrafficController.h"
-
+@class EndViewController;
 @interface TrafficViewController ()
 
 @end
@@ -53,6 +53,11 @@
 
 -(IBAction)returned:(UIStoryboardSegue *)segue {
     [self.gameController togglePause];
+}
+
+-(void)displayGameOver {
+    NSLog(@"Game Over");
+    [self performSegueWithIdentifier:@"EndSegue2" sender:self];
 }
 
 @end
