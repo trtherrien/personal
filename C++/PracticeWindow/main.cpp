@@ -63,9 +63,20 @@ LRESULT CALLBACK MyWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
    switch(msg)
    {
-       case WM_DESTROY:
+       	case WM_DESTROY:
+		{
            PostQuitMessage(0);
            return 0;
+		}
+		case WM_PAINT:
+		{
+			PAINTSTRUCT ps;
+			HDC hdc = BeginPaint(hwnd, &ps);
+			
+			FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW + 1));
+			EndPaint(hwnd, &ps);
+			return 0;
+		}
    }
    return DefWindowProc(hwnd, msg, wParam, lParam);
 }
