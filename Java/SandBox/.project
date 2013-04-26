@@ -20,5 +20,10 @@
 			<type>2</type>
 			<location>C:/gitrepos/builds/eclipse-local/personal/bin</location>
 		</link>
+		<link>
+			<name>builds</name>
+			<type>2</type>
+			<location>C:/gitrepos/builds</location>
+		</link>
 	</linkedResources>
 </projectDescription>
