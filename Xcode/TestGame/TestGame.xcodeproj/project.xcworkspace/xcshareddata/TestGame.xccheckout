@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D674E743-BF0A-4160-AE76-52B976FF2C91</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDEA8E9E-6A8B-4D3E-8466-53C17A982EDE</key>
+		<string>ssh://github.com/trtherrien/personal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode/TestGame/TestGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDEA8E9E-6A8B-4D3E-8466-53C17A982EDE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/trtherrien/personal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDEA8E9E-6A8B-4D3E-8466-53C17A982EDE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDEA8E9E-6A8B-4D3E-8466-53C17A982EDE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>personal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

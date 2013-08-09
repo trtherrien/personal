@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>008A966F-11FD-4BC0-A92B-43991B4C66FD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TimeTracker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BD49BA0-E133-4AB6-ADA1-09322915F03F</key>
+		<string>ssh://github.com/trtherrien/personal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode/TimeTracker/TimeTracker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BD49BA0-E133-4AB6-ADA1-09322915F03F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/trtherrien/personal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BD49BA0-E133-4AB6-ADA1-09322915F03F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BD49BA0-E133-4AB6-ADA1-09322915F03F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>personal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

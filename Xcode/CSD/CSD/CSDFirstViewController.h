@@ -9,6 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSDFirstViewController : UIViewController
+@interface CSDFirstViewController : UIViewController <NSURLConnectionDelegate>
+- (IBAction)TestButtonClick:(id)sender;
 
 @end

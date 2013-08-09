@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D462D31173B27E900D7F559 /* CSDLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D462D30173B27E900D7F559 /* CSDLogin.m */; };
 		3DF74E241739D16600F790BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF74E231739D16600F790BB /* UIKit.framework */; };
 		3DF74E261739D16600F790BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF74E251739D16600F790BB /* Foundation.framework */; };
 		3DF74E281739D16600F790BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF74E271739D16600F790BB /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D462D2F173B27E900D7F559 /* CSDLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDLogin.h; sourceTree = "<group>"; };
+		3D462D30173B27E900D7F559 /* CSDLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDLogin.m; sourceTree = "<group>"; };
 		3DF74E201739D16600F790BB /* CSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF74E231739D16600F790BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DF74E251739D16600F790BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +112,8 @@
 				3DF74E491739D16600F790BB /* CSDFirstViewController.xib */,
 				3DF74E4C1739D16600F790BB /* CSDSecondViewController.xib */,
 				3DF74E2A1739D16600F790BB /* Supporting Files */,
+				3D462D2F173B27E900D7F559 /* CSDLogin.h */,
+				3D462D30173B27E900D7F559 /* CSDLogin.m */,
 			);
 			path = CSD;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				3DF74E341739D16600F790BB /* CSDAppDelegate.m in Sources */,
 				3DF74E3D1739D16600F790BB /* CSDFirstViewController.m in Sources */,
 				3DF74E441739D16600F790BB /* CSDSecondViewController.m in Sources */,
+				3D462D31173B27E900D7F559 /* CSDLogin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +339,7 @@
 				3DF74E531739D16600F790BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
