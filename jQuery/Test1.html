@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is Test 1</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+		var paras = $("p").css("font-weight", "bold");
+		$(".second").css("font-size", "1.3em");
+		$("span", paras).css("background-color", "silver");
+		var third = document.getElementByID("third");
+		$(third).css({"border" : "1px solid black", "width" : "200px"});
+		$("<p>Fourth paragraph created on the fly.</p>").appendTo("#example");
+	});
+</script>
+</head>
+<body>
+	<p>First Paragraph, no class defined.</p>
+	<p class="second">Second Paragraph, <span>with a class and internal span.</span></p>
+	<p id="third">Third Paragraph, with an ID</p>
+	<div><span>Div with span won't get highlighted</span></div>
+</body>
+</html>
